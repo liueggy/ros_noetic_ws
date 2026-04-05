@@ -1,0 +1,16 @@
+{
+    "name": "ROS Noetic",
+    "image": "osrf/ros:noetic-desktop-full",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-iot.vscode-ros",
+                "ms-vscode.cpptools",
+                "ms-python.python"
+            ]
+        }
+    },
+
+    "postCreateCommand": "bash .devcontainer/postCreate.sh"
+}
